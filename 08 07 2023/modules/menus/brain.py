@@ -6,7 +6,6 @@ from modules.langchain_assistant.langchain_brain import LangChainBrainAssistant
 
 
 talker = Talker(TtsTalker())
-# talker = Talker(FakeYouTalker('Pancitou', 'papu2273', 'Toretto'))
 listener = Listener()
 langchain_assistant = LangChainBrainAssistant()
 notion = Notion()
